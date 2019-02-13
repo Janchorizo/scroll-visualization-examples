@@ -1,0 +1,47 @@
+body{
+  max-width: 900px;
+  margin: 0px auto 550px auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+  margin: 50px;
+  text-align: center;
+}
+
+h1.active{
+    position: fixed;
+    top: 10px;
+}
+
+
+#container{
+  position: relative;
+padding-bottom:90px;
+}
+
+#sections{
+  width: 340px;
+}
+
+#sections > div{
+  background: white;
+  opacity: .2;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+#sections > div:last-child{
+  margin-bottom: 170px;
+}
+#sections > div.graph-scroll-active{
+  opacity: 1;
+}
+
+#graph{
+      margin-left: 40px;
+        width: 500px;
+          position: -webkit-sticky;
+            position: sticky;
+              top: 100px;
+                float: right;
+                }
